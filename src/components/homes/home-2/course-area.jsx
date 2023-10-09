@@ -36,7 +36,7 @@ const CourseArea = () => {
                   <div className="row">
                     <div className="col-xl-4 tpcourse-thumb-w">
                       <div className="tpcourse__thumb p-relative w-img fix">
-                        <Link href="/course-details">
+                        <Link href="/course/1/">
                           <img src={item.img} alt="course-thumb" />
                         </Link>
                       </div>
@@ -45,7 +45,7 @@ const CourseArea = () => {
                       <div className="tp-wrap-course__content ml-5">
                         <div className="tp-wrap-course__heading">
                           <h4 className="tp-wrap-course__title mb-20">
-                            <Link href="/course-details">{item.title}</Link>
+                            <Link href="/course/1/">{item.title}</Link>
                           </h4>
                         </div>
                         <div className="tpcourse__meta tp-course-line pb-20 mb-25">
@@ -79,12 +79,12 @@ const CourseArea = () => {
                           </h5>
                           <ul className="tpcourse__price-list d-flex align-items-center">
                             <li>
-                              <Link href="/course-details">
+                              <Link href="/course/1/">
                                 {item.course_title}
                               </Link>
                             </li>
                             <li>
-                              <Link href="/course-details">
+                              <Link href="/course/1/">
                                 {item.course_name}
                               </Link>
                             </li>

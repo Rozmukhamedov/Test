@@ -210,10 +210,10 @@ const CourseDetailsArea = ({ data }) => {
                   <div className="cd-video-price">
                     <h3 className="pricing-video text-center mb-15">${data?.course_price}</h3>
                     <div className="cd-pricing-btn text-center mb-30">
-                      <Link className="tp-vp-btn" href="/course-details">
+                      <Link className="tp-vp-btn" href="/course/1/">
                         Add To Cart
                       </Link>
-                      <Link className="tp-vp-btn-green" href="/course-details">
+                      <Link className="tp-vp-btn-green" href="/course/1/">
                         Enroll Now
                       </Link>
                     </div>

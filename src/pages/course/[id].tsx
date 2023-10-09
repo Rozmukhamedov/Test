@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SEO from "../../common/seo";
-import CourseDetails from "../../components/course-details";
+import CourseDetails from "../../components/course/1/";
 import WrapperFour from "../../layout/wrapper-4";
 import { useRouter } from "next/router";
 

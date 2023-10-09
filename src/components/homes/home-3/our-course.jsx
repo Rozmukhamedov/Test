@@ -121,11 +121,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -139,7 +139,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -147,7 +147,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -156,7 +156,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
@@ -211,11 +211,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -229,7 +229,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -237,7 +237,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -246,7 +246,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
@@ -301,11 +301,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -319,7 +319,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -327,7 +327,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -336,7 +336,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
@@ -391,11 +391,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -409,7 +409,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -417,7 +417,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -426,7 +426,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
@@ -480,11 +480,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -498,7 +498,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -506,7 +506,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -515,7 +515,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
@@ -570,11 +570,11 @@ const OurCourse = () => {
                     <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                       <div className="tpcourse mb-40">
                         <div className="tpcourse__thumb p-relative w-img fix">
-                          <Link href="/course-details">
+                          <Link href="/course/1">
                             <img src={item.img} alt={item.title} />
                           </Link>
                           <div className="tpcourse__tag">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               <i className="fi fi-rr-heart"></i>
                             </Link>
                           </div>
@@ -588,7 +588,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.ct_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_title}
                                 </Link>
@@ -596,7 +596,7 @@ const OurCourse = () => {
                               <li>
                                 <Link
                                   className={item.cn_color}
-                                  href="/course-details"
+                                  href="/course/1"
                                 >
                                   {item.course_name}
                                 </Link>
@@ -605,7 +605,7 @@ const OurCourse = () => {
                           </div>
                           <div className="tpcourse__ava-title mb-15">
                             <h4 className="tpcourse__title tp-cours-title-color">
-                              <Link href="course-details">{item.title}</Link>
+                              <Link href="course/1">{item.title}</Link>
                             </h4>
                           </div>
                           <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">

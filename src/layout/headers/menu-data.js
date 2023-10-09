@@ -42,7 +42,7 @@ const menu_data = [
     sub_menus: [
       { link: "/course-grid", title: "Course Grid" },
       { link: "/course-list", title: "Course List" },
-      { link: "/course-details", title: "Course Details" },
+      { link: "/course/1/", title: "Course Details" },
     ],
   },
   {

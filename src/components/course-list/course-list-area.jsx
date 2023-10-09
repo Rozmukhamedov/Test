@@ -276,7 +276,7 @@ const  CourseListArea = () => {
                   <div className="row g-0">
                     <div className="col-xl-4 course-thumb-width">
                       <div className="tpcourse__thumb p-relative w-img fix">
-                        <Link href="/course-details">
+                        <Link href="/course/1">
                           <img src={item.img} alt="course-thumb" />
                         </Link>
                       </div>
@@ -288,7 +288,7 @@ const  CourseListArea = () => {
                             <li>
                               <Link
                                 className={item.ct_color}
-                                href="/course-details"
+                                href="/course/1"
                               >
                                 {item.course_title}
                               </Link>
@@ -296,7 +296,7 @@ const  CourseListArea = () => {
                             <li>
                               <Link
                                 className={item.cn_color}
-                                href="/course-details"
+                                href="/course/1"
                               >
                                 {item.course_name}
                               </Link>
@@ -305,7 +305,7 @@ const  CourseListArea = () => {
                         </div>
                         <div className="tpcourse__ava-title mb-15">
                           <h4 className="tpcourse__title tp-cours-title-color">
-                            <Link href="/course-details">
+                            <Link href="/course/1">
                               {item.title}
                             </Link>
                           </h4>

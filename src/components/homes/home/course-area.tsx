@@ -91,7 +91,7 @@ const CourseArea = ({ data }) => {
           <div className="row text-center">
             <div className="col-lg-12">
               <div className="course-btn mt-20">
-                <Link className="tp-btn" href="/course-details">
+                <Link className="tp-btn" href="/course/1/">
                   Browse All Courses
                 </Link>
               </div>
