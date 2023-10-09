@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import CourseDetails from "../../components/course-details";
 
 export async function getServerSideProps({ params }) {
-  const res = await fetch(`http://localhost:3000/api/${params?.id}/`);
+  const res = await fetch(`https://test-git-master-rozmukhamedov.vercel.app/${params?.id}/`);
   console.log("code 9", res);
   if (res?.status == 404) {
     return {

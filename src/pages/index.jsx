@@ -3,7 +3,7 @@ import Home from "../components/homes/home";
 import Wrapper from "../layout/wrapper";
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:3000/api/hello/");
+  const res = await fetch("https://test-git-master-rozmukhamedov.vercel.app/api/hello/");
   const data = await res.json();
 
   return {
