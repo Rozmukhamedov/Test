@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import SEO from "../../common/seo";
-import CourseDetails from "../../components/course/1/";
 import WrapperFour from "../../layout/wrapper-4";
 import { useRouter } from "next/router";
+import CourseDetails from "../../components/course-details";
 
 export async function getServerSideProps({ params }) {
   const res = await fetch(`http://localhost:3000/api/${params?.id}/`);
